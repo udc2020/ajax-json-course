@@ -1,0 +1,37 @@
+[
+    {
+        "name":"ahmed",
+        "age" : 24,
+        "skills" :[
+            "web developer",
+            "public speaking ",
+            "accounting"
+        ] 
+    },
+    {
+        "name":"yassin",
+        "age" : 30,
+        "skills" :[
+            "copywriter",
+            "blogger"
+        ] 
+    },
+    {
+        "name":"khoula",
+        "age" : 21,
+        "skills" :[
+            "graphic designer",
+            "voice over ",
+            "soroban"
+        ] 
+    },
+    {
+        "name":"udc",
+        "age" : 24,
+        "skills" :[
+            "content creator ",
+            "He ask people to share his content",
+            "All people say yes , with no support 😓"
+        ] 
+    }
+]

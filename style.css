@@ -1,0 +1,92 @@
+/* 
+    Creted By UltrtasDzCoder 2021
+*/
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategrey;
+    color: bisque;
+    font-family: sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    min-width: clamp(50%,30em,100%);
+    padding: 1em;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+#btn-text,#btn-json ,textarea{
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: medium;
+    color: inherit;
+    border: none;
+}
+#btn-text,#btn-json{
+    background-color: brown;
+    text-transform: uppercase;
+}
+textarea{
+    background-color: transparent;
+    border: 1px solid #fff;
+    resize: none;
+    padding: .5em;
+    font-size: 2rem;
+    height: 500px;
+    text-align: center;
+
+}
+textarea:focus{
+    outline: none;
+}
+textarea::-webkit-scrollbar{
+    width: 5px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: royalblue;
+    outline: 1px solid rgb(32, 53, 114);
+}
+
+#btn-text:hover,#btn-json:hover{
+    background-color: cadetblue;
+    transition: background .25s ease-in;
+    color: black;
+}
+
+#all-content{
+    padding-top: 1em;
+}
+#all-content li {
+    background-color: rgba(248, 229, 142, 0.335);
+    color: black;
+    margin: 1em 0;
+    list-style-type: none;
+    display: block;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+#all-content li span{
+    margin-left: 10px;
+    text-align: left;
+    text-transform: lowercase;
+}
+#all-content li:hover {
+    background-color: rgba(248, 229, 142, 0.733);
+    padding-left: 1em;
+    transition: .5s ease-in-out;
+}

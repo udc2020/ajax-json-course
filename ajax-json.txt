@@ -1,0 +1,24 @@
+1.ajax :
+
+    1.define variable that have new object XMLHttpRequest()
+
+    2.readyState :
+        0 request not initialed 
+        1 server connection not established 
+        2 request recived 
+        3 processing request 
+        4 request is finished & response is ready
+    3.status :
+        200 "ok"
+        403 forbidden
+        404 page not found
+
+    4.reponseText:
+        get text from file
+
+    5.methodes :
+        open ("method","url" ,bool (async or not ))
+        send()
+
+    6.json:
+        Json.parse()
